@@ -18,7 +18,7 @@
     />
 
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:500&display=swap"
       rel="stylesheet"
     />
 
@@ -43,7 +43,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="white" role="navigation">
+    <nav class="navbar" role="navigation">
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo"
           ><img
@@ -91,61 +91,217 @@
       <section class="showcase-hero">
         <div class="showcase__text-box">
           <h1 class="showcase-primary">
-              <span class="showcase-primary--main">Residenza <br> <span class="showcase-primary--main-vignale">Vignale</span> </span>
-              <span class="showcase-primary--sub">Nel cuore di Milano</span>
+            <span class="showcase-primary--main"
+              >Residenza <br />
+              <span class="showcase-primary--main-vignale">Vignale</span>
+            </span>
+            <span class="showcase-primary--sub">Nel cuore di Milano</span>
           </h1>
 
-          <a href="#section-tours" class="button button-color button-animated">Prenota un evento</a>
-      </div>
+          <a
+            href="#section-tours"
+            class="button button-color button-animated u-margin-top-big"
+            >Esplora</a
+          >
+        </div>
       </section>
-    </header >
-
+    </header>
 
     <!-- HISTORY -->
     <main>
       <section id="heading-history">
-          <div class="u-center-text u-margin-bottom-big">
-              <h2 class="heading-secondary">
-                  Residenza d'epoca nel cuore di Milano
-              </h2>
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            Storia
+          </h2>
+        </div>
+
+        <div class="container-history">
+          <div class="history-text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Dimora principesca edificata ad inizio Novecento
+            </h3>
+            <p>
+              L'edificio viene costruito negli anni 1905-1907 come dimora di un
+              principe austriaco desideroso di risiedere a Milano, perché
+              innamorato di una giovane milanese. Il progetto originale, firmato
+              dall'architetto Gattermayer, è frutto anche della collaborazione
+              con l'austriaco Adolf Loos, figura di spicco nell'architettura
+              della Vienna "fin de siècle".
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">Il restauro</h3>
+            <p class="">
+              Dopo un minuzioso intervento di restauro, nel 2002 la casa diventa
+              una sede di prestigio per eventi, congressi, esposizioni con il
+              nome di "Residenza Vignale".
+            </p>
+
+            <a href="#popup" class="btn-text u-margin-top-small"
+              >Scopri di più &rarr;</a
+            >
           </div>
-
-          <div class="container-history">
-              <div class="history-text">
-                  <h3 class="heading-tertiary u-margin-bottom-small">Lorem ipsum dolor sit amet consectetur.</h3>
-                  <p>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis impedit tempora hic quo exercitationem recusandae nostrum consequatur similique, porro dolor.
-                  </p>
-
-                  <h3 class="heading-tertiary u-margin-bottom-small">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-                  <p class="">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rem quibusdam voluptatibus quos!
-                  </p>
-
-                  <a href="#popup" class="btn-text u-margin-top-small">La Storia &rarr;</a>
-              </div>
-              <div class="history-img">
-                  <div class="composition">
-
-                      <img  alt="Residenza Vignale storica"
-                           class="composition__photo composition__photo--p1"
-                           src="img/Residenza-Storica01.jpg">
-                      <img  alt="Residenza Vignale storica"
-                           class="composition__photo composition__photo--p2"
-                           src="img/Residenza-Storica02.jpg">
-                      <img  alt="Residenza Vignale storica"
-                           class="composition__photo composition__photo--p3"
-                           src="img/Residenza-Storica04.jpg">
-                      <!-- <img  alt="Residenza Vignale storica"
+          <div class="history-img">
+            <div class="composition">
+              <img
+                alt="Residenza Vignale storica"
+                class="composition__photo composition__photo--p1"
+                src="img/Residenza-Storica04.jpg"
+              />
+              <img
+                alt="Residenza Vignale storica"
+                class="composition__photo composition__photo--p2"
+                src="img/Residenza-Storica02.jpg"
+              />
+              <img
+                alt="Residenza Vignale storica"
+                class="composition__photo composition__photo--p3"
+                src="img/Residenza-Storica01.jpg"
+              />
+              <!-- <img  alt="Residenza Vignale storica"
                            class="composition__photo composition__photo--p4"
                            src="img/Residenza-Storica05.jpg"> -->
-                  </div>
-              </div>
+            </div>
           </div>
+        </div>
       </section>
 
-  
+      <!-- SERVIZI -->
+      <section id="servizi-section">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary-white">
+            Servizi
+          </h2>
+        </div>
+        <div class="container-servizi">
+          <!-- box 1 -->
+          <div class="servizi-box bg-light">
+            <i class="fas fa-box-open servizi-box__icona"></i>
 
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Servizi forniti in dotazione
+            </h3>
+
+            <div class="servizi-box_text">
+              <ul class="servizi-box_list">
+                <li>
+                  <p>
+                    <i class="fas fa-fan"></i><span >Condizionamento</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-music"></i><span >Amplificazione musicale</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-tty"></i><span >Linea telefonica diretta ISDN</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-wifi"></i><span >Connessione Internet</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-fax"></i><span >Uso fax e fotocopiatrice</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-tshirt"></i><span >Spazio guardaroba attrezzato</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- box 2 -->
+          <div class="servizi-box bg-light">
+            <i class="fas fa-people-carry servizi-box__icona"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Servizi accessori
+            </h3>
+            <div class="servizi-box_text">
+              <ul class="servizi-box_list">
+                <li>
+                  <p>
+                    <i class="fas fa-concierge-bell"></i><span >Catering*</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-spa"></i><span >Fioristi</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-icons"></i><span >Intrattenimenti</span>
+                  </p>
+                </li>
+                <li>
+                <li>
+                  <p>
+                    <i class="fas fa-holly-berry"></i><span >Addobbi e arredi</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <!-- <i class="fab fa-instagram"> --></i
+                    ><span >*Catering esterno e non esclusivo</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- box 3 -->
+
+          <div class="servizi-box bg-light">
+            <i class="fas fa-tools servizi-box__icona"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Servizi tecnici disponibili su richiesta
+            </h3>
+            <div class="servizi-box_text">
+              <ul class="servizi-box_list">
+                <li>
+                  <p>
+                    <i class="fas fa-photo-video"></i><span >Videoproiettore</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-desktop"></i><span >Lavagna luminosa</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-chalkboard-teacher"></i><span >Teleconferenze</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-language"></i><span >Traduzione simultanea</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-microphone"></i><span >Registrazione audio</span>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <i class="fas fa-headset"></i><span >Microfoni e radiomicrofoni</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- FOOTER -->
     <footer class="page-footer">
       <div class="container">
@@ -153,21 +309,31 @@
           <div class="col l6 s12">
             <h5 class="white-text">Residenza Vignale</h5>
             <p class="grey-text text-lighten-4">
-              We are a team of college students working on this project like
-              it's our full time job. Any amount would help support and continue
-              development on this project and is greatly appreciated.
+              Per informazioni, preventivi, prenotazioni e visite della Residenza Vignale riolgersi a <strong>Ambercroft S.r.l</strong>, Via E. Toti 2, 20123 Milano
+              
+                <ul>
+                  <li>&nbsp;</li>
+                  <li>Tel. 02 48006225</li>
+                  <li>Fax 02 48195533</li>
+                  <li>E-mail info@residenzavignale.com</li>
+                  <li>MM1 Conciliazione</li>
+                  <li>Tram n. 16 e 10</li>
+                  <li>Autobus n. 61, 67, 68 e 50</li>
+
+                </ul>
+        
             </p>
           </div>
           <div class="col l3 s12">
-            <h5 class="white-text">Mappa del sito</h5>
+            <h5 class="white-text">Link Utili</h5>
             <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
+              <li><a class="white-text" href="#!">Domande & Risposte</a></li>
+              <li><a class="white-text" href="#!">Privacy Policy</a></li>
+              <li><a class="white-text" href="#!">Su di noi</a></li>
+              <li><a class="white-text" href="#!">Contatti</a></li>
             </ul>
           </div>
-          <div class="col l3 s12 ">
+          <div class="col l3 s12">
             <h5 class="white-text">Seguici</h5>
             <ul class="list-inline">
               <li class="social-icon">
@@ -182,12 +348,13 @@
               </li>
               <li class="social-icon">
                 <a class="white-text" href="#!"
-                  ><i class="fab fa-google fa-3x"></i></a>
+                  ><i class="fab fa-google fa-3x"></i
+                ></a>
               </li>
               <li class="social-icon">
                 <a class="white-text" href="#!"
-                  ><img class="icon-google" src="img/icon/business2.svg" alt=""></i
-                ></a>
+                  ><img class="icon-google" src="img/icon/business2.svg" alt=""
+                /></a>
               </li>
             </ul>
           </div>
@@ -208,39 +375,58 @@
     <!-- POPUP HISTORY -->
     <div class="popup" id="popup">
       <div class="popup__content">
-          <div class="popup__left">
-              <img src="img/Residenza-Storica05.jpg" alt="Tour photo" class="popup__img">
-              <img src="img/Residenza-Storica01.jpg" alt="Tour photo" class="popup__img">
-          </div>
-          <div class="popup__right">
-              <a href="#heading-history" class="popup__close">&times;</a>
-              <h2 class="heading-secondary u-margin-bottom-small">La Storia</h2>
-              <h3 class="heading-tertiary u-margin-bottom-small">Una residenza principesca costruita per amore agli inizi del 900'</h3>
-              <p class="popup__text">
-                L'edificio viene costruito negli anni 1905-1907 come dimora di un principe austriaco desideroso 
-                di risiedere a Milano, perché innamorato di una giovane milanese. Il progetto originale, firmato 
-                dall'architetto Gattermayer, è frutto anche della collaborazione con l'austriaco Adolf Loos, figura di spicco nell'architettura della Vienna "fin de siècle". Nella facciata di taglio semplice e pulito si uniscono elementi decorativi di gusto austriaco tradizionale, come il balcone a quadri e del liberty milanese, come i putti
-                che sorreggono il terrazzo.
-                
-                Il corpo principale, destinato a residenza del Principe, è a due piani: al piano terra i grandi saloni 
-                con accesso sul cortile, al primo piano camere da letto e salottini. Sull'altro lato del cortile si trovano
-                gli alloggi della servitù, inseriti in un curioso edificio con modanature di legno scuro e un grazioso bovindo.
-                
-                Vi sono anche la scuderia per i cavalli e il deposito per la carrozza, protetto quest'ultimo da una pensilina di ferro elegantemente decorata.
-                
-                Dopo la morte in battaglia del principe, nel 1914, la casa passa nelle mani di diversi proprietari. 
-                Viene sopraelevata di alcuni piani negli anni '50, ma mantiene ugualmente intatto l'antico fascino 
-                della facciata e del cortile. All’interno l’arredo è composto da specchiere e console dorate, arazzi, 
-                quadri, tappeti e un raffinatissimo salottino siciliano in boiserie e specchi. Rimane assolutamente
-                immutato l'aspetto originario in tutta la struttura di base, dai soffitti elegantemente decorati, ai pavimenti
-                in parquet e marmo, al taglio pulito e grandioso dello scalone e delle sale. Dopo un minuzioso intervento
-                di restauro, nel 2002 la casa diventa una sede di prestigio per eventi, congressi, esposizioni con il nome
-                di "Residenza Vignale".
-              </p>
-              <a href="#" class="btn btn--green">Prenota Evento</a>
-          </div>
+        <div class="popup__left">
+          <img
+            src="img/Residenza-Storica05.jpg"
+            alt="Tour photo"
+            class="popup__img"
+          />
+          <img
+            src="img/Residenza-Storica01.jpg"
+            alt="Tour photo"
+            class="popup__img"
+          />
+        </div>
+        <div class="popup__right">
+          <a href="#heading-history" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">La Storia</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Una residenza principesca costruita per amore agli inizi del
+            Novecento
+          </h3>
+          <p class="popup__text">
+            L'edificio viene costruito negli anni 1905-1907 come dimora di un
+            principe austriaco desideroso di risiedere a Milano, perché
+            innamorato di una giovane milanese. Il progetto originale, firmato
+            dall'architetto Gattermayer, è frutto anche della collaborazione con
+            l'austriaco Adolf Loos, figura di spicco nell'architettura della
+            Vienna "fin de siècle". Nella facciata di taglio semplice e pulito
+            si uniscono elementi decorativi di gusto austriaco tradizionale,
+            come il balcone a quadri e del liberty milanese, come i putti che
+            sorreggono il terrazzo. Il corpo principale, destinato a residenza
+            del Principe, è a due piani: al piano terra i grandi saloni con
+            accesso sul cortile, al primo piano camere da letto e salottini.
+            Sull'altro lato del cortile si trovano gli alloggi della servitù,
+            inseriti in un curioso edificio con modanature di legno scuro e un
+            grazioso bovindo. Vi sono anche la scuderia per i cavalli e il
+            deposito per la carrozza, protetto quest'ultimo da una pensilina di
+            ferro elegantemente decorata. Dopo la morte in battaglia del
+            principe, nel 1914, la casa passa nelle mani di diversi proprietari.
+            Viene sopraelevata di alcuni piani negli anni '50, ma mantiene
+            ugualmente intatto l'antico fascino della facciata e del cortile.
+            All’interno l’arredo è composto da specchiere e console dorate,
+            arazzi, quadri, tappeti e un raffinatissimo salottino siciliano in
+            boiserie e specchi. Rimane assolutamente immutato l'aspetto
+            originario in tutta la struttura di base, dai soffitti elegantemente
+            decorati, ai pavimenti in parquet e marmo, al taglio pulito e
+            grandioso dello scalone e delle sale. Dopo un minuzioso intervento
+            di restauro, nel 2002 la casa diventa una sede di prestigio per
+            eventi, congressi, esposizioni con il nome di "Residenza Vignale".
+          </p>
+          <a href="#" class="btn btn--green">Prenota Evento</a>
+        </div>
       </div>
-  </div>
+    </div>
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
