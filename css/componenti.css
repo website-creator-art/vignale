@@ -93,10 +93,11 @@
 
 /* HISTORY IMAGE */
 .composition {
+  width: 100%;
   position: relative;
 }
 .composition__photo {
-  width: 55%;
+  max-width: 60%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 2px;
   position: absolute;
@@ -145,7 +146,7 @@
 }
 
 .composition__photo:hover {
-  outline: 1.5rem solid var(--color-secondary);
+  outline: 0.8rem solid var(--color-secondary);
   transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
@@ -153,4 +154,32 @@
 
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
+}
+
+/* BOX SERVIZI */
+.servizi-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.servizi-box__icona {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  background-image: linear-gradient(
+    to top right,
+    var(--color-secondary-light),
+    var(--color-secondary-dark)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.servizi-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
 }
